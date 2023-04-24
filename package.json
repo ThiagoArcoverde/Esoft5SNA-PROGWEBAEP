@@ -1,0 +1,18 @@
+{
+  "name": "pkgnode",
+  "version": "1.0.0",
+  "description": "AEP 2 Prog web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sucrase-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Arcoverde",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "sucrase": "^3.32.0",
+    "typescript": "^5.0.4"
+  }
+}
